@@ -1,0 +1,106 @@
+body {
+    font-family: 'Courier New', Courier, monospace  ;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    
+}
+.wrap{
+    padding: 0% 5% 0% 5%;
+}
+.nav-bar {
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    height: auto;
+}
+    
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden; 
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(182, 188, 194);
+}
+.profile{
+    padding: 5% 0% 5% 0%;   
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    
+ 
+}
+#image{
+    width: 150px; height:150px; border-radius:100% ; 
+}
+.name{
+    color:rgb(91, 110, 129);
+}
+#flag{
+    width: 30px; height:20px;
+}
+.content{
+    padding: 2%;
+    width: 95%;
+    display: flex;
+}
+.col-2{
+    width: 50%;
+    height: auto;
+    padding: 2% 2% 2% 2%;
+}
+.services{
+    background-color: aliceblue;
+    padding: 3% 2% 2% 3%;
+    border-radius: 15px;
+   
+}
+.service-content{
+    display: flex;
+    padding: 3% 3% 3% 3%;
+    justify-content: space-between;
+    text-align: center;
+}
+.col-1{
+    width: 30%;
+    padding: 1% 1% 1% 1%;
+    border-radius: 15px;
+    background-color: white;
+
+    }
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 5% 0% 5% 0%;
+    text-align: center;
+}
+#social-media img {
+    width: 30px; height:20px
+
+}
+.u{
+    padding-left: 5%;
+}
+.efcc{
+    font-size: 25px;
+    font-weight:bold;
+    line-height: 30px;
+    
+}
